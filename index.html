@@ -2,10 +2,10 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>lampa.coffee.bar | Світло твоєї кави</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -17,7 +17,9 @@
                 <div class="logo">lampa<span>.</span>coffee<span>.</span>bar</div>
             </a>
             <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
             <ul class="nav-menu">
                 <li><a href="#about">Про нас</a></li>
@@ -71,15 +73,14 @@
             <div class="menu-grid-styled">
                 <div class="menu-row-item"><span class="item-name">Еспресо</span><span class="ml-val">110 мл</span><div class="price-capsule-group"><span class="price-box kupazh">33</span><span class="price-box arabika">39</span></div></div>
                 <div class="menu-row-item"><span class="item-name">Допіо</span><span class="ml-val">110 мл</span><div class="price-capsule-group"><span class="price-box kupazh">52</span><span class="price-box arabika">57</span></div></div>
-                <div class="menu-row-item"><span class="item-name">Фільтр</span><span class="ml-val">250/350 мл</span><div class="price-capsule-group"><span class="price-box kupazh empty"></span><span class="price-box arabika">55/70</span></div></div>
-                <div class="menu-row-item"><span class="item-name">Hand Brew</span><span class="ml-val">350 мл</span><div class="price-capsule-group"><span class="price-box kupazh empty"></span><span class="price-box arabika">90</span></div></div>
+                <div class="menu-row-item"><span class="item-name">Фільтр</span><span class="ml-val">250/350 мл</span><div class="price-capsule-group"><span class="price-box empty"></span><span class="price-box arabika">55/70</span></div></div>
+                <div class="menu-row-item"><span class="item-name">Hand Brew</span><span class="ml-val">350 мл</span><div class="price-capsule-group"><span class="price-box empty"></span><span class="price-box arabika">90</span></div></div>
                 <div class="menu-row-item"><span class="item-name">Американо</span><span class="ml-val">180/250 мл</span><div class="price-capsule-group"><span class="price-box kupazh">34/53</span><span class="price-box arabika">40/58</span></div></div>
                 <div class="menu-row-item"><span class="item-name">Еспресо з молоком</span><span class="ml-val">110 мл</span><div class="price-capsule-group"><span class="price-box kupazh">41</span><span class="price-box arabika">46</span></div></div>
                 <div class="menu-row-item"><span class="item-name">Кава з молоком</span><span class="ml-val">180/250 мл</span><div class="price-capsule-group"><span class="price-box kupazh">48/55</span><span class="price-box arabika">53/60</span></div></div>
-                <div class="menu-item-separator"></div>
                 <div class="menu-row-item"><span class="item-name">Капучино</span><span class="ml-val">250/350 мл</span><div class="price-capsule-group"><span class="price-box kupazh">55/78</span><span class="price-box arabika">60/83</span></div></div>
                 <div class="menu-row-item"><span class="item-name">Лате</span><span class="ml-val">350/400 мл</span><div class="price-capsule-group"><span class="price-box kupazh">62/70</span><span class="price-box arabika">67/75</span></div></div>
-                <div class="menu-row-item"><span class="item-name">КапуОрандж</span><span class="ml-val">250/350 мл</span><div class="price-capsule-group"><span class="price-box kupazh">80/90</span><span class="price-box arabika empty"></span></div></div>
+                <div class="menu-row-item"><span class="item-name">КапуОрандж</span><span class="ml-val">250/350 мл</span><div class="price-capsule-group"><span class="price-box kupazh">80/90</span><span class="price-box empty"></span></div></div>
                 <div class="menu-row-item"><span class="item-name">Флет-Вайт</span><span class="ml-val">180/250 мл</span><div class="price-capsule-group"><span class="price-box kupazh">64/68</span><span class="price-box arabika">69/74</span></div></div>
                 <div class="menu-row-item"><span class="item-name">Дабл Кава з молоком</span><span class="ml-val">350/400 мл</span><div class="price-capsule-group"><span class="price-box kupazh">78/82</span><span class="price-box arabika">83/87</span></div></div>
                 <div class="menu-row-item"><span class="item-name">Вершкова Кава</span><span class="ml-val">250/350 мл</span><div class="price-capsule-group"><span class="price-box kupazh">90/105</span><span class="price-box arabika">95/110</span></div></div>
@@ -96,23 +97,22 @@
                 <div class="menu-row-item"><span class="item-name">Глінтвейн</span><span class="ml-val">350 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">95</span></div></div>
             </div>
 
-            <div class="menu-dual-row">
-                <div class="menu-col">
-                    <h3 class="menu-category">Шейки</h3>
-                    <div class="menu-row-item"><span class="item-name">Класичний</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">95</span></div></div>
-                    <div class="menu-row-item"><span class="item-name">Какао Шейк</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">100</span></div></div>
-                    <div class="menu-row-item"><span class="item-name">Кава Шейк</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">110</span></div></div>
-                    <div class="menu-row-item"><span class="item-name">Матча Шейк</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">130</span></div></div>
-                </div>
-                <div class="menu-col">
-                    <h3 class="menu-category">Холодні</h3>
-                    <div class="menu-row-item"><span class="item-name">Айс Лате</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">85</span></div></div>
-                    <div class="menu-row-item"><span class="item-name">Еспресо Тонік</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">90</span></div></div>
-                    <div class="menu-row-item"><span class="item-name">Бамблбі</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">90</span></div></div>
-                    <div class="menu-row-item"><span class="item-name">Айс Матча</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">100</span></div></div>
-                    <div class="menu-row-item"><span class="item-name">Матча Тонік</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">120</span></div></div>
-                    <div class="menu-row-item"><span class="item-name">Матча Орандж</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">130</span></div></div>
-                </div>
+            <h3 class="menu-category">Шейки</h3>
+            <div class="menu-grid-styled">
+                <div class="menu-row-item"><span class="item-name">Класичний</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">95</span></div></div>
+                <div class="menu-row-item"><span class="item-name">Какао Шейк</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">100</span></div></div>
+                <div class="menu-row-item"><span class="item-name">Кава Шейк</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">110</span></div></div>
+                <div class="menu-row-item"><span class="item-name">Матча Шейк</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">130</span></div></div>
+            </div>
+
+            <h3 class="menu-category">Холодні напої</h3>
+            <div class="menu-grid-styled">
+                <div class="menu-row-item"><span class="item-name">Айс Лате</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">85</span></div></div>
+                <div class="menu-row-item"><span class="item-name">Еспресо Тонік</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">90</span></div></div>
+                <div class="menu-row-item"><span class="item-name">Бамблбі</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">90</span></div></div>
+                <div class="menu-row-item"><span class="item-name">Айс Матча</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">100</span></div></div>
+                <div class="menu-row-item"><span class="item-name">Матча Тонік</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">120</span></div></div>
+                <div class="menu-row-item"><span class="item-name">Матча Орандж</span><span class="ml-val">300 мл</span><div class="price-capsule-group single"><span class="price-box kupazh">130</span></div></div>
             </div>
 
             <h3 class="menu-category">Лимонади</h3>
@@ -138,10 +138,10 @@
         <div class="footer-content">
             <h2>Наші локації</h2>
             <div class="locations-grid">
-                <a href="https://maps.app.goo.gl/Yy7pXhT5B5mY6v6v8" target="_blank" class="map-link">📍 Пр. Миру 15</a>
-                <a href="https://maps.app.goo.gl/m7bL8V6v6v8Yy7pXh" target="_blank" class="map-link">📍 Вул. Перемоги 24</a>
-                <a href="https://maps.app.goo.gl/pXhT5B5mY6v6v8Yy7" target="_blank" class="map-link">📍 Г. Самойловича 4</a>
-                <a href="https://maps.app.goo.gl/v6v8Yy7pXhT5B5mY6" target="_blank" class="map-link">📍 Київська 73</a>
+                <a href="https://maps.google.com/?q=Житомир+Миру+15" target="_blank" class="map-link">📍 Пр. Миру 15</a>
+                <a href="https://maps.google.com/?q=Житомир+Перемоги+24" target="_blank" class="map-link">📍 Вул. Перемоги 24</a>
+                <a href="https://maps.google.com/?q=Житомир+Самойловича+4" target="_blank" class="map-link">📍 Г. Самойловича 4</a>
+                <a href="https://maps.google.com/?q=Житомир+Київська+73" target="_blank" class="map-link">📍 Київська 73</a>
             </div>
             <div class="footer-bottom">
                 <p class="work-time">⏰ 07:30 — 20:00☕️</p>
